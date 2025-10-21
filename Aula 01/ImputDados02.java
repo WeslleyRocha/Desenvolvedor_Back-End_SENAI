@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class ImputDados02{
 
 public static void main (String[] args){
@@ -8,7 +6,7 @@ int numero1;
 int numero2;
 int total;
 
-Scanner ler = new Scanner(System.in);
+Scanner ler = new scanner(System.in);
 System.out.println("Digite o primeiro valor: ");
 numero1 = ler.nextInt(); 
 
